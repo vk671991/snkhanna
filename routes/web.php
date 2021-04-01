@@ -23,6 +23,7 @@ Route::get('articles/papers-published-by-dr-s-n-khanna', 'App\Http\Controllers\H
 Route::get('articles/docs-revive-50-year-old-bypass-patient-dead-for-30-minutes', 'App\Http\Controllers\HomeController@article2')->name('articles.docs-revive-50-year-old-bypass-patient-dead-for-30-minutes');
 Route::get('articles/cardiac-surgery-in-patients', 'App\Http\Controllers\HomeController@article3')->name('articles.cardiac-surgery-in-patients');
 Route::get('gallery', 'App\Http\Controllers\HomeController@getGallery')->name('gallery');
+Route::get('videos', 'App\Http\Controllers\HomeController@getVideos')->name('videos');
 Route::get('blog', 'App\Http\Controllers\HomeController@getBlog')->name('blog');
 Route::get('contact-us', 'App\Http\Controllers\HomeController@contactUs')->name('contact-us');
 Route::get('appointment', 'App\Http\Controllers\HomeController@getAppointment')->name('appointment');

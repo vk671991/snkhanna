@@ -1,32 +1,14 @@
 @extends('template')
 @section('content')
-<!-- Start Section -->
-<section class=" position-relative set-bg breadcrumb-container" data-bg="{{ url('/') }}/assets/images/breadcrumb-img1.jpg">
-    <div class="overlay op-P9"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-inner align-items-start flex-column justify-content-center   d-flex ">
-                    <h3 class="semi-bold text-uppercase text-white">Gallery</h3>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb bg-transparent mb-0 pl-0 p-0">
-                            <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('gallery') }}">Gallery</a></li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Start Section -->
+
 
 <!-- Start Section -->
-<section class="m-pt-140 m-bg-1 m-pb-140">
+<section class="m-pt-40 m-bg-1 m-pb-40">
     <div class="container">
+        
         <div class="row">
             <div class="col-md-12">
-                <h4 class="m-text-2 ">Photo Gallery</h4>
+                <h4 class="m-text-2 m-mb-30">Photo Gallery</h4>
             </div>
         </div>
         <div class="row grid ">
@@ -141,40 +123,7 @@
             </div> <!-- col -->
             
         </div>
-        <br><br>
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="m-text-2 ">Video Gallery</h4>
-            </div>
-        </div>
-        <div class="row grid">
-            <div class="col-md-6 col-sm-6 col-lg-6 m-mb-30 grid-item diabetes">
-                <div class="position-relative">
-                    <iframe width="500" height="329" src="https://www.youtube.com/embed/vWn7bnq-Rdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div><!-- content -->
-            </div> <!-- col -->
-            <div class="col-md-6 col-sm-6 col-lg-6 m-mb-30 grid-item diabetes">
-                <div class="position-relative">
-                    <iframe width="500" height="329" src="https://www.youtube.com/embed/zjgaKGyRUFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div><!-- content -->
-            </div> <!-- col -->
-            <div class="col-md-6 col-sm-6 col-lg-6 m-mb-30 grid-item diabetes">
-                <div class="position-relative">
-                    <iframe width="500" height="329" src="https://www.youtube.com/embed/MXoXL2cQwwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div><!-- content -->
-            </div> <!-- col -->
-            <div class="col-md-6 col-sm-6 col-lg-6 m-mb-30 grid-item diabetes">
-                <div class="position-relative">
-                    <iframe width="500" height="329" src="https://www.youtube.com/embed/U-2uBjev-JY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div><!-- content -->
-            </div> <!-- col -->
-            <div class="col-md-6 col-sm-6 col-lg-6 m-mb-30 grid-item diabetes">
-                <div class="position-relative">
-                    <iframe width="500" height="329" src="https://www.youtube.com/embed/vHkQZYdYz_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div><!-- content -->
-            </div> <!-- col -->
-            
-        </div>
+        
     </div>
 </section>
 <!-- End Section -->

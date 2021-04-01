@@ -1,7 +1,7 @@
 @extends('template')
 @section('content')
 <!-- Start Banner Section -->
-<div class="grad-bg--2 banenr position-relative type-1 no-overflows">
+<div class="grad-bg--2 banenr position-relative type-1 no-overflows" style="background: url('assets/images/fortis-hospital.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div class="circle"></div> 
     <div class="circle2"></div>
     <div class="circle3"></div>
@@ -13,16 +13,15 @@
                 <div class="banenr-slider">
                     <div class="single-banenr-slide">
                         <div class="row">
-                            <div class="col-xl-5 col-sm-8 col-md-6">
-                                <h6 class="ml12 text-white text-uppercase fadeInDown-slide animated">Cardiac Surgery/ Cardio Thoracic Vascular Surgery</h6>
+                            <div class="col-sm-8">
                                 <h1 class="text-white font-weight-bold mb-4 fadeInDown-slide animated">Dr. Surendra Nath Khanna</h1>
-                                <p class="text-white fadeInDown-slide animated">
-                                    Dr. Surendra Nath Khanna is the Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India. 
+                                <p class="text-white text-uppercase" style="display: none">
+                                    Dr. S N Khanna is the Associate Director, Department of Cardiovascular Surgery, Escorts Heart Institute & Research Centre, New Delhi, India.
+                                </p>
+                                <p class="text-white text-uppercase">
+                                    Internationally known for his pioneering work in heart valve techniques
                                 </p>
                                 <div class="xs-flex">
-                                    <a href="{{ route('about-me') }}" class="btn fadeInDown-slide animated  medim-btn btn-bordered-white mt-4 text-medium radius-pill bg-transparent text-active text-uppercase text-white">
-                                        About Us
-                                    </a>
                                     <a href="{{ route('appointment') }}" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-4 text-medium radius-pill text-active text-uppercase text-white">
                                         Appointment
                                     </a>

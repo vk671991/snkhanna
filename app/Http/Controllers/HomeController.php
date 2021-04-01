@@ -48,8 +48,13 @@ class HomeController extends Controller
     }
     public function getGallery()
     {
-        $title = env('APP_NAME','Dr. S N Khanna').' | Gallery';
+        $title = env('APP_NAME','Dr. S N Khanna').' | Photo Gallery';
         return view('pages.gallery',compact('title'));
+    }
+    public function getVideos()
+    {
+        $title = env('APP_NAME','Dr. S N Khanna').' | Educational Videos';
+        return view('pages.educational',compact('title'));
     }
     public function contactUs()
     {

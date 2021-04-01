@@ -62,12 +62,6 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('gallery') }}">
-                                <i class="icofont-caret-right"></i>
-                                Gallery
-                            </a>
-                        </li>
-                        <li>
                             <a href="{{ route('contact-us') }}">
                                 <i class="icofont-caret-right"></i>
                                 Contact Us
@@ -112,17 +106,17 @@
                     <h5 class="text-dark footer-widget-title">Social Connect</h5>
                     <p style="margin-bottom: 0px !important">Find me on :<br> <a href="https://www.practo.com/delhi/doctor/dr-surendra-nath-khanna-cardiologist" class="d-inline-block mb-5"><img src="{{ url('/') }}/assets/images/practo.png" alt=""></a></p>
                     <div class="social-icon circle-link position-relative">
-                        <a href="https://www.facebook.com/surendra.khanna.14" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-facebook"></i>
+                        <a href="https://www.facebook.com/surendra.khanna.14" style="background-color: #0777E9" class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-facebook" style="color: white"></i>
                         </a>
-                        <a href="https://twitter.com/SSurendrank" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-twitter"></i>
+                        <a href="https://twitter.com/SSurendrank" style="background-color: #4C9BE5" class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-twitter" style="color: white"></i>
                         </a>
-                        <a href="https://in.linkedin.com/in/dr-prof-surendra-nath-khanna-0611b675" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-linkedin"></i>
+                        <a href="https://in.linkedin.com/in/dr-prof-surendra-nath-khanna-0611b675" style="background-color:  #0270AD" class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-linkedin" style="color: white"></i>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCUljFRBm2LdW1te3044ZBYw" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-youtube"></i>
+                        <a href="https://www.youtube.com/channel/UCUljFRBm2LdW1te3044ZBYw" style="background-color:  #F70000"  class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-youtube" style="color: white" ></i>
                         </a>
                     </div>
                     
