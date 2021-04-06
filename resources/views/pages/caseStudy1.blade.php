@@ -66,12 +66,31 @@
                                     <div class="media-body ml-3">
                                         <h5 class="mt-0 mb-3 text-dark2">Refrences</h5>
                                         <p class="mb-2">
-                                        <ul>
-                                            <li>Combined operation for lung cancer and cardiac disease. Ann Thorac Surg 1994;58:989–93. Miller DL, Orszulak TA, Pairolero PC, Trastek VF, Schaff HV.</li>
-                                            <li>Risk of noncardiac operation in patients with defined coronarydisease: The Coronary Artery Surgery Study (CASS) Registry Experience. Ann Thorac Surg 41:42-50 Foster ED, Davis KB, Carpentier JA, Abele S, Fray D (1986)</li>
-                                            <li>A prospective study of risk factors and cardiopulmonary complications associated with anaesthesia and surgery: risk indicators of cardiopulmonary morbidity. Acta Anaesthesiol Scand. 1990 Pedersen T, Eliasen K, Henriksen E (1990)</li>
-                                            <li>Coronary-Artery Revascularization before Elective Major Vascular Surgery. New England Journal Of Medicine 2004; 351:2795-2804</li>
-                                        </ul>
+                                            <div class="media align-items-center text-medium">
+                                                <i class="icofont-check-circled mr-3 text-active"></i>
+                                                <div class="media-body">
+                                                    <p class="mb-0 text-small">Combined operation for lung cancer and cardiac disease. Ann Thorac Surg 1994;58:989–93. Miller DL, Orszulak TA, Pairolero PC, Trastek VF, Schaff HV.</p>
+                                                </div>
+                                            </div>
+                                        <div class="media align-items-center text-medium">
+                                                <i class="icofont-check-circled mr-3 text-active"></i>
+                                                <div class="media-body">
+                                                    <p class="mb-0 text-small">Risk of noncardiac operation in patients with defined coronarydisease: The Coronary Artery Surgery Study (CASS) Registry Experience. Ann Thorac Surg 41:42-50 Foster ED, Davis KB, Carpentier JA, Abele S, Fray D (1986).</p>
+                                                </div>
+                                            </div>
+                                        <div class="media align-items-center text-medium">
+                                                <i class="icofont-check-circled mr-3 text-active"></i>
+                                                <div class="media-body">
+                                                    <p class="mb-0 text-small">A prospective study of risk factors and cardiopulmonary complications associated with anaesthesia and surgery: risk indicators of cardiopulmonary morbidity. Acta Anaesthesiol Scand. 1990 Pedersen T, Eliasen K, Henriksen E (1990).</p>
+                                                </div>
+                                            </div>
+                                        <div class="media align-items-center text-medium">
+                                                <i class="icofont-check-circled mr-3 text-active"></i>
+                                                <div class="media-body">
+                                                    <p class="mb-0 text-small">Coronary-Artery Revascularization before Elective Major Vascular Surgery. New England Journal Of Medicine 2004; 351:2795-2804 .</p>
+                                                </div>
+                                            </div>
+                                        
                                         </p>
                                     </div>
                                 </div>

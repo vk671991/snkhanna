@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="appoint-card border-light type-3 radius-20 bg-white  position-relative m-pt-50 m-pb-50 ">
+                <div class="appoint-card border-light type-3 radius-20 bg-white  position-relative m-pt-50 m-pb-160 ">
                     <div class="row">
                         <div class="col-md-12">
                             <h3 class="m-text-2 pb-35 mb-0">Make Appointment</h3>
@@ -49,7 +49,7 @@
                 </div> <!-- appoint-card -->
             </div>
             <div class="col-md-4">
-                <div class="bg-white pt-4 pl-4 pb-4 pr-4 info-box m-mb-30  radius-5">
+                <div class="bg-white pt-4 pl-4 pb-4 pr-4 info-box m-mb-20  radius-5">
                     <h5 class="m-text-2 mb-3">Payment Details</h5>
                     <div class="media ">
                         <div class="media-body">

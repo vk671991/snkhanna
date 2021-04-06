@@ -128,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="mb-1 mt-1">&copy; {{ date('Y') }}. All Rights Reserved. <a href="https://highvoltagesoft.com/">High Voltage Softwares pvt ltd.</a></p>
+                    <p class="mb-1 mt-1">&copy; {{ date('Y') }}. All Rights Reserved. <a href="https://highvoltagesoft.com/">HighVoltage Softwares pvt ltd.</a></p>
                 </div>
             </div>
         </div>
