@@ -1,38 +1,47 @@
 @extends('template')
+@section('css')
+<link rel="stylesheet" href="{{ url('/') }}/assets/css/skdslider.css">
+@stop
 @section('content')
 <!-- Start Banner Section -->
 <div class="grad-bg--2 banenr position-relative type-1 no-overflows" style="background: url('assets/images/fortis-hospital.jpg'); background-repeat: no-repeat; background-size: cover;">
-    <div class="circle"></div> 
-    <div class="circle2"></div>
-    <div class="circle3"></div>
-    <div class="circle4"></div>
-    <div class="container position-relative">
-        <img src="{{ url('/') }}/assets/images/banner-img.png" class="banner-image position-absolute" alt="banenr image">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="banenr-slider">
-                    <div class="single-banenr-slide">
-                        <div class="row">
-                            <div class="col-sm-8">
-                                <h1 class="text-white font-weight-bold mb-4 fadeInDown-slide animated">Dr. Surendra Nath Khanna</h1>
-                                <p class="text-white text-uppercase" style="display: none">
-                                    Dr. S N Khanna is the Associate Director, Department of Cardiovascular Surgery, Escorts Heart Institute & Research Centre, New Delhi, India.
-                                </p>
-                                <p class="text-white text-uppercase">
-                                    Internationally known for his pioneering work in heart valve techniques
-                                </p>
-                                <div class="xs-flex">
-                                    <a href="{{ route('appointment') }}" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-4 text-medium radius-pill text-active text-uppercase text-white">
-                                        Appointment
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- single-banenr-slide -->
-                </div>
+    <div id="imageSlider">
+        <div class="slide">
+            <img src="{{ url('/') }}/assets/images/milan.jpg" />
+             <div class="slide-desc">
+                <h2>Dr. Surendra Nath Khanna</h2>
+                <p>Internationally known for his pioneering work in heart valve techniques</p>
             </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
+        </div>
+        <div class="slide">
+            <img src="{{ url('/') }}/assets/images/fortis.jpg" />
+             <div class="slide-desc">
+                <h2>Dr. Surendra Nath Khanna</h2>
+                <p>Internationally known for his pioneering work in heart valve techniques</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="{{ url('/') }}/assets/images/kemh.jpg" />
+             <div class="slide-desc">
+                <h2>Dr. Surendra Nath Khanna</h2>
+                <p>Internationally known for his pioneering work in heart valve techniques</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="{{ url('/') }}/assets/images/vellore.jpg" />
+             <div class="slide-desc">
+                <h2>Dr. Surendra Nath Khanna</h2>
+                <p>Internationally known for his pioneering work in heart valve techniques</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="{{ url('/') }}/assets/images/max.jpg" />
+             <div class="slide-desc">
+                <h2>Dr. Surendra Nath Khanna</h2>
+                <p>Internationally known for his pioneering work in heart valve techniques</p>
+            </div>
+        </div>
+    </div>
 </div> <!-- Banenr Section -->
 <!-- Start Banner Section -->
 
@@ -423,4 +432,20 @@
     </div>
 </section>
 <!-- End recent post Section -->
+@section('script')
+<script src="{{ url('/') }}/assets/js/skdslider.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#imageSlider').skdslider({
+          slideSelector: '.slide',
+          delay:3000, 
+          animationSpeed: 1000,
+          showNextPrev:true,
+          showPlayButton:false,
+          autoSlide:true,
+          animationType:'sliding'
+        });
+    });
+</script>
+@stop
 @endsection

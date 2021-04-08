@@ -220,6 +220,13 @@
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" >
                         <h4 class="m-text-2 ">Dr. Surendra Nath Khanna </h4>
                         <h6 class="text-light-dark ff-roboto pb-40 mb-0">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow Cardiac Surgeon, SAN RAFFAELE Hospital, MILAN, ITALY(1998).</p>
+                            </div>
+                        </div>
                         <div class="media align-items-center text-medium">
                             <i class="icofont-check-circled mr-3 text-active"></i>
                             <div class="media-body">
@@ -254,12 +261,6 @@
                             <i class="icofont-check-circled mr-3 text-active"></i>
                             <div class="media-body">
                                 <p class="mb-0 text-medium">Head of the department of Cardio Vascular Thoracic Surgeon, Escorts Heart Centre, Kanpur (2004- 2005).</p>
-                            </div>
-                        </div>
-                        <div class="media align-items-center text-medium">
-                            <i class="icofont-check-circled mr-3 text-active"></i>
-                            <div class="media-body">
-                                <p class="mb-0 text-medium">Fellow Cardiac Surgeon, SAN RAFFAELE Hospital, MILAN, ITALY(1998).</p>
                             </div>
                         </div>
 
@@ -326,6 +327,13 @@
                     <div class="tab-pane fade" id="eye-care" role="tabpanel" >
                         <h4 class="m-text-2 ">Dr. Surendra Nath Khanna </h4>
                         <h6 class="text-light-dark ff-roboto pb-40 mb-0">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow Cardiac Surgeon,SAN RAFFAELE HOSPITAL,MILAN,ITALY.</p>
+                            </div>
+                        </div>
                         <div class="media align-items-center text-medium">
                             <i class="icofont-check-circled mr-3 text-active"></i>
                             <div class="media-body">
@@ -348,12 +356,6 @@
                             <i class="icofont-check-circled mr-3 text-active"></i>
                             <div class="media-body">
                                 <p class="mb-0 text-medium">FICS(USA),FIACS,FAMS,FICC.</p>
-                            </div>
-                        </div>
-                        <div class="media align-items-center text-medium">
-                            <i class="icofont-check-circled mr-3 text-active"></i>
-                            <div class="media-body">
-                                <p class="mb-0 text-medium">Fellow Cardiac Surgeon,SAN RAFFAELE HOSPITAL,MILAN,ITALY.</p>
                             </div>
                         </div>
 
