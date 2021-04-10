@@ -156,7 +156,6 @@
                
                 <div class="collapse navbar-collapse bcbd_collpase_nav" id="navbarSupportedContent">
                      <div class="nav_outer   mr-auto ml-lg-auto mr-lg-0">
-                        <img src="assets/images/logo-white.png" class="d-block d-md-none" alt="">
                           <ul class="navbar-nav bcbd_nav mr-lg-4 ">
                             <li class="nav-item {{ (request()->segment(1) =='home') ? 'active' :'' }}">
                                 <a class="nav-link" href="{{ route('home') }}">Home  </a>
@@ -170,7 +169,7 @@
                             <li class="nav-item {{ (request()->segment(1) =='articles') ? 'active' :'' }}">
                                 <a class="nav-link" href="{{ route('articles') }}"> Articles </a>
                             </li>
-                            <li class="nav-item {{ (request()->segment(1) =='gallery' || request()->segment(1) =='videos') ? 'active' :'' }}">
+                            <li class="nav-item hs_dropdown {{ (request()->segment(1) =='gallery' || request()->segment(1) =='videos') ? 'active' :'' }}">
                                 <a class="nav-link" href="javascript:void(0)"> Gallery </a>
                                 <ul class="bcbd_dropdown">
                                     <li>
@@ -186,9 +185,6 @@
                                      
                                 </ul>
                             </li>
-    <!--                        <li class="nav-item {{ (request()->segment(1) =='blog') ? 'active' :'' }}">
-                                <a class="nav-link" href="{{ route('blog') }}"> Blog </a>
-                            </li>-->
                             <li class="nav-item {{ (request()->segment(1) =='contact-us') ? 'active' :'' }}">
                                 <a class="nav-link" href="{{ route('contact-us') }}"> Contact Us </a>
                             </li>
