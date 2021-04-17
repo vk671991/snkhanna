@@ -1,97 +1,47 @@
 @extends('template')
 @section('content')
 
-<!-- Start Section -->
-<div class=" position-relative set-bg breadcrumb-container" data-bg="{{ url('/') }}/assets/images/breadcrumb-img1.jpg">
-    <div class="overlay op-P9"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-inner align-items-start flex-column justify-content-center   d-flex ">
-
+<section class="intro-area type2 m-pt-60 m-bg-1 ">
+        <div class="container position-relative m-pb-120">
+            <img src="assets/images/doctors-image5.png" class="intro-doctor position-absolute" alt="">
+            <div class="row">
+                <div class="col-lg-4 col-sm-5 col-md-4">
+                    <h2 class="text-dark mb-0 semi-bold pb-5"> 
+                        About Me
+                    </h2>
+                    <p class="mb-4">
+                    Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India
+                    </p>
+                    <div class="media align-items-center text-medium">
+                        <i class="icofont-check-circled mr-3 text-active"></i>
+                        <div class="media-body">
+                            <p class="mb-0 text-medium">Fellow Cardiac Surgeon, San Raffaele Hospital, Milan, Italy.</p>
+                        </div>
+                    </div>
+                    <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">MBBS, M.S, M.Ch, FICS(USA), FIACS, FAMS, FICC.</p>
+                            </div>
+                    </div>
                 </div>
+                <div class="col-lg-4 col-sm-6 col-md-5">
+                    <div class="intro-box bg-white radius-5">
+                        <div class="intro-icon rounded-circle grad-bg--5">
+                           <span class="icon-clock text-white"></span>
+                        </div>
+                        <h3 class="m-text-2 mb-3">WORKING DAYS</h3>
+                            <p><span>Mon - Fri: </span>  <span>09:00am - 06:00pm </span></p>
+                            <p><span>Saturday: </span>  <span>09:00am - 03:00pm </span></p>
+                            <p><span>Sunday: </span>  <span>Emergency Only </span></p>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-</div>
-<!-- Start Section -->
+    </section>
 
-<!-- Start Section -->
-<div class="m-bg-1 single-doctor-container type-2 m-pb-60">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="doctors-image mb-1 d-inline-block bg-white rounded-circle p-2 s-10-80">
-                    <img src="{{ url('/') }}/assets/images/doctors-image5.jpg" alt="">
-                </div>
-                <h3 class="text-dark mt-4 font-weight-bold">Dr. S N Khanna</h3>
-                <h6 class="fz-18 text-uppercase font-weight-normal">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
-                <div class="social-icon mt-3 circle-link position-relative">
-                    <a href="https://www.facebook.com/surendra.khanna.14" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-facebook"></i>
-                    </a>
-                    <a href="https://twitter.com/SSurendrank" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-twitter"></i>
-                    </a>
-                    <a href="https://in.linkedin.com/in/dr-prof-surendra-nath-khanna-0611b675" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-linkedin"></i>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCUljFRBm2LdW1te3044ZBYw" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-youtube"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row m-mb-20 m-mt-20 ">
-            <div class="col-md-4">
-                <div class="bg-white mb-0 position-relative has-float-icon pt-4 pl-4 pb-4 pr-4 info-box m-mtb-20  radius-5">
-                    <span class="position-absolute flaot-icon">
-                        <i class="icofont-stethoscope-alt text-active"></i>
-                    </span>
-                    <h5 class="m-text-2 mb-3 text-uppercase">Education</h5>
-                    <div class="media ">
-                        <div class="media-body">
-                            <p class="m-0 ">MBBS, M.S, M.Ch, FICS(USA), FIACS, FAMS, FICC.</p>
-                            <p class="m-0 ">Fellow Cardiac Surgeon, San Raffaele Hospital, Milan, Italy.</p>
-                        </div>
-                    </div>
-                </div> <!-- col-->
-            </div> <!-- col-->
-            <div class="col-md-4">
-                <div class="bg-white position-relative has-float-icon pt-4 pl-4 pb-4 pr-4 info-box m-mtb-20  radius-5">
-                    <span class="position-absolute flaot-icon">
-                        <i class="icofont-stethoscope-alt"></i>
-                    </span>
-                    <h5 class="m-text-2 mb-3 text-uppercase">WORKING DAYS</h5>
-                    <div class="media ">
-                        <div class="media-body">
-                            <p class="m-0 ">Monday – Friday : 9am to 6pm</p>
-                            <p class="m-0 ">Saturday  : 9am to 3pm</p>
-                            <p class="m-0 ">Sunday  :  Emergency Only</p>
-                            <p class="m-0 ">&nbsp;</p>
-                        </div>
-                    </div>
-                </div> <!-- col-->
-            </div> <!-- col-->
-            <div class="col-md-4">
-                <div class="bg-white position-relative has-float-icon pt-4 pl-4 pb-4 pr-4 info-box m-mtb-20  radius-5">
-                    <span class="position-absolute flaot-icon">
-                        <i class="icofont-stethoscope-alt"></i>
-                    </span>
-                    <h5 class="m-text-2 mb-3 text-uppercase">CONTACT ADDRESS</h5>
-                    <div class="media ">
-                        <div class="media-body">
-                            <p class="m-0 ">Phone: +91 98109 43535 / <br>+91 98189 55777
-                                <br>
-                                E-mail: surendrank@hotmail.com</p>
-                            <p class="m-0 ">&nbsp;</p>
-                        </div>
-                    </div>
-                </div> <!-- col-->
-            </div> <!-- col-->
-        </div><!-- row-->
-    </div>
-</div>
+   
 
 <section class="m-bg-1 intro-area type-1 position-relative">
     <div class="intro-overlay position-absolute set-bg" data-bg="assets/images/intro-bg.jpg" ></div>

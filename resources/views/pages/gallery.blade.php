@@ -121,7 +121,55 @@
                     <img src="{{ url('/') }}/assets/images/Dr-S-N-Khanna-addressing-Indian-Medical-Association-220x220.jpg" alt="">
                 </div><!-- content -->
             </div> <!-- col -->
-            
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/image (1).jpeg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <!-- <h6 class="" data-hover="  Dr S N Khanna addressing, Indian Medical Association ">  Dr S N Khanna addressing, Indian Medical Association </h6> -->
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/image (1).jpeg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/image (2).jpeg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <!-- <h6 class="" data-hover="  Dr S N Khanna addressing, Indian Medical Association ">  Dr S N Khanna addressing, Indian Medical Association </h6> -->
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/image (2).jpeg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/image (3).jpeg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <!-- <h6 class="" data-hover="  Dr S N Khanna addressing, Indian Medical Association ">  Dr S N Khanna addressing, Indian Medical Association </h6> -->
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/image (3).jpeg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/image (4).jpeg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <!-- <h6 class="" data-hover="  Dr S N Khanna addressing, Indian Medical Association ">  Dr S N Khanna addressing, Indian Medical Association </h6> -->
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/image (4).jpeg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+
         </div>
         
     </div>
