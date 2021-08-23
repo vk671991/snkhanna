@@ -1,32 +1,13 @@
 @extends('template')
 @section('content')
-<!-- Start Section -->
-<section class=" position-relative set-bg breadcrumb-container" data-bg="{{ url('/') }}/assets/images/breadcrumb-img1.jpg">
-    <div class="overlay op-P9"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-inner align-items-start flex-column justify-content-center   d-flex ">
-                    <h3 class="semi-bold text-uppercase text-white">Appointment</h3>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb bg-transparent mb-0 pl-0 p-0">
-                            <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('appointment') }}">Appointment</a></li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Start Section -->
+
 
 <!-- Start Section -->
-<div class="m-bg-1 m-pt-140 m-pb-120">
+<div class="m-bg-1 m-pt-40 m-pb-40">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="appoint-card border-light type-3 radius-20 bg-white  position-relative m-pt-50 m-pb-50 ">
+                <div class="appoint-card border-light type-3 radius-20 bg-white  position-relative m-pt-50 m-pb-160 ">
                     <div class="row">
                         <div class="col-md-12">
                             <h3 class="m-text-2 pb-35 mb-0">Make Appointment</h3>
@@ -68,7 +49,7 @@
                 </div> <!-- appoint-card -->
             </div>
             <div class="col-md-4">
-                <div class="bg-white pt-4 pl-4 pb-4 pr-4 info-box m-mb-30  radius-5">
+                <div class="bg-white pt-4 pl-4 pb-4 pr-4 info-box m-mb-20  radius-5">
                     <h5 class="m-text-2 mb-3">Payment Details</h5>
                     <div class="media ">
                         <div class="media-body">

@@ -85,6 +85,9 @@ h5{
 img {
     max-width: 100%;
 }
+.logo img {
+    max-width: 85%;
+}
 a,a:hover,a:focus{
     text-decoration: none;
     outline: none;
@@ -130,7 +133,7 @@ button:focus,a:focus,textarea:focus{
 --------------------------*/
 .medim-btn {
     display: inline-block;
-    padding: 12px 40px;
+    padding: 12px 25px;
     box-shadow: none;
     font-size: 17px;
     letter-spacing: 1.2px;
@@ -1975,9 +1978,10 @@ select {
     color: #77d31a;
 }
 .m-navbar li a {
-    font-size: 15px;
+    font-size: 14px;
     text-transform: capitalize;
-    padding: 25px 16px !important;
+    /* padding: 25px 16px !important; */
+    padding: 25px 9px !important;
     position: relative;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -2159,7 +2163,7 @@ select {
     position: absolute;
     top: 51%;
     transform: translateY(-50%);
-    right: 0px;
+    right: -5px;
     height: inherit;
     transition: all .30s linear;
 }
@@ -2350,7 +2354,8 @@ select {
 .sticky-active.m-navbar .navbar-nav > li > a {
     font-size: 14px;
     text-transform: capitalize;
-    padding: 18px !important;
+    /* padding: 18px !important; */
+    padding: 15px !important;
 }
 .navbar-fixed{
     width: 100%;
@@ -2385,7 +2390,8 @@ select {
     right: 0;
     color: #ffffff;
     z-index: 9;
-    font-size: 17px;
+    /* font-size: 17px; */
+    font-size: 14px;
 }
 
 .navbar-search .form-control:focus {

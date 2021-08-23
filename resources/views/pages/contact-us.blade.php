@@ -1,28 +1,11 @@
 @extends('template')
 @section('content')
 <!-- Start Section -->
-<section class=" position-relative set-bg breadcrumb-container" data-bg="{{ url('/') }}/assets/images/breadcrumb-img1.jpg">
-    <div class="overlay op-P9"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-inner align-items-start flex-column justify-content-center   d-flex ">
-                    <h3 class="semi-bold text-uppercase text-white">Contact Us</h3>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb bg-transparent mb-0 pl-0 p-0">
-                            <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('contact-us') }}">Contact Us</a></li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- Start Section -->
 
 <!-- Start Section -->
-<section class="m-bg-1 m-pt-140 m-pb-140">
+<section class="m-bg-1 m-pt-40 m-pb-40">
     <div class="container">
         <div class="row m-mb-60">
             <div class="col-md-12">
@@ -71,6 +54,7 @@
                         <div class="media-body">
                             <p class="m-0  fz-poppins">Fortis Escorts Heart Institute
                                 & Research Centre, New Delhi, India</p>
+                            <br>
                         </div>
                     </div>
                 </div> <!-- col-->
@@ -98,17 +82,17 @@
                     <div class="footer-widget">
                     <p style="margin-bottom: 0px !important">
                     <div class="social-icon circle-link position-relative">
-                        <a href="https://www.facebook.com/surendra.khanna.14" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-facebook"></i>
+                        <a href="https://www.facebook.com/surendra.khanna.14" style="background-color: #0777E9" class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-facebook" style="color: white"></i>
                         </a>
-                        <a href="https://twitter.com/SSurendrank" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-twitter"></i>
+                        <a href="https://twitter.com/SSurendrank" style="background-color: #4C9BE5" class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-twitter" style="color: white"></i>
                         </a>
-                        <a href="https://in.linkedin.com/in/dr-prof-surendra-nath-khanna-0611b675" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-linkedin"></i>
+                        <a href="https://in.linkedin.com/in/dr-prof-surendra-nath-khanna-0611b675" style="background-color:  #0270AD" class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-linkedin" style="color: white"></i>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCUljFRBm2LdW1te3044ZBYw" class="text-default rounded-circle s-dp-1-3-15">
-                            <i class="icofont-youtube"></i>
+                        <a href="https://www.youtube.com/channel/UCUljFRBm2LdW1te3044ZBYw" style="background-color:  #F70000"  class="text-default rounded-circle s-dp-1-3-15">
+                            <i class="icofont-youtube" style="color: white" ></i>
                         </a>
                     </div>
                     </p>

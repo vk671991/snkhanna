@@ -1,102 +1,56 @@
 @extends('template')
 @section('content')
 
-<!-- Start Section -->
-<div class=" position-relative set-bg breadcrumb-container" data-bg="{{ url('/') }}/assets/images/breadcrumb-img1.jpg">
-    <div class="overlay op-P9"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-inner align-items-start flex-column justify-content-center   d-flex ">
-
+<section class="intro-area type2 m-pt-60 m-bg-1 ">
+        <div class="container position-relative m-pb-120">
+            <img src="assets/images/doctors-image5.png" class="intro-doctor position-absolute" alt="">
+            <div class="row">
+                <div class="col-lg-4 col-sm-5 col-md-4">
+                    <h2 class="text-dark mb-0 semi-bold pb-5"> 
+                        About Me
+                    </h2>
+                    <p class="mb-4">
+                    Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India
+                    </p>
+                    <div class="media align-items-center text-medium">
+                        <i class="icofont-check-circled mr-3 text-active"></i>
+                        <div class="media-body">
+                            <p class="mb-0 text-medium">Fellow Cardiac Surgeon, San Raffaele Hospital, Milan, Italy.</p>
+                        </div>
+                    </div>
+                    <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">MBBS, M.S, M.Ch, FICS(USA), FIACS, FAMS, FICC.</p>
+                            </div>
+                    </div>
                 </div>
+                <div class="col-lg-4 col-sm-6 col-md-5">
+                    <div class="intro-box bg-white radius-5">
+                        <div class="intro-icon rounded-circle grad-bg--5">
+                           <span class="icon-clock text-white"></span>
+                        </div>
+                        <h3 class="m-text-2 mb-3">WORKING DAYS</h3>
+                            <p><span>Mon - Fri: </span>  <span>09:00am - 06:00pm </span></p>
+                            <p><span>Saturday: </span>  <span>09:00am - 03:00pm </span></p>
+                            <p><span>Sunday: </span>  <span>Emergency Only </span></p>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-</div>
-<!-- Start Section -->
+    </section>
 
-<!-- Start Section -->
-<div class="m-bg-1 single-doctor-container type-2 m-pb-60">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="doctors-image mb-1 d-inline-block bg-white rounded-circle p-2 s-10-80">
-                    <img src="{{ url('/') }}/assets/images/doctors-image5.jpg" alt="">
-                </div>
-                <h3 class="text-dark mt-4 font-weight-bold">Dr. S N Khanna</h3>
-                <h6 class="fz-18 text-uppercase font-weight-normal">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
-                <div class="social-icon mt-3 circle-link position-relative">
-                    <a href="https://www.facebook.com/surendra.khanna.14" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-facebook"></i>
-                    </a>
-                    <a href="https://twitter.com/SSurendrank" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-twitter"></i>
-                    </a>
-                    <a href="https://in.linkedin.com/in/dr-prof-surendra-nath-khanna-0611b675" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-linkedin"></i>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCUljFRBm2LdW1te3044ZBYw" class="text-default bg-white rounded-circle s-dp-1-3-15">
-                        <i class="icofont-youtube"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row m-mb-60 m-mt-60 ">
-            <div class="col-md-4">
-                <div class="bg-white mb-0 position-relative has-float-icon pt-4 pl-4 pb-4 pr-4 info-box m-mtb-20  radius-5">
-                    <span class="position-absolute flaot-icon">
-                        <i class="icofont-stethoscope-alt text-active"></i>
-                    </span>
-                    <h5 class="m-text-2 mb-3 text-uppercase">Education</h5>
-                    <div class="media ">
-                        <div class="media-body">
-                            <p class="m-0 ">MBBS, M.S, M.Ch,FICS(USA),FIACS,FAMS,FICC.</p>
-                            <p class="m-0 ">Fellow Cardiac Surgeon,SAN RAFFAELE HOSPITAL,MILAN,ITALY.</p>
-                        </div>
-                    </div>
-                </div> <!-- col-->
-            </div> <!-- col-->
-            <div class="col-md-4">
-                <div class="bg-white position-relative has-float-icon pt-4 pl-4 pb-4 pr-4 info-box m-mtb-20  radius-5">
-                    <span class="position-absolute flaot-icon">
-                        <i class="icofont-stethoscope-alt"></i>
-                    </span>
-                    <h5 class="m-text-2 mb-3 text-uppercase">WORKING DAYS</h5>
-                    <div class="media ">
-                        <div class="media-body">
-                            <p class="m-0 ">Monday – Friday : 9am to 6pm</p>
-                            <p class="m-0 ">Saturday  : 9am to 3pm</p>
-                            <p class="m-0 ">Sunday  :  Emergency Only</p>
-                        </div>
-                    </div>
-                </div> <!-- col-->
-            </div> <!-- col-->
-            <div class="col-md-4">
-                <div class="bg-white position-relative has-float-icon pt-4 pl-4 pb-4 pr-4 info-box m-mtb-20  radius-5">
-                    <span class="position-absolute flaot-icon">
-                        <i class="icofont-stethoscope-alt"></i>
-                    </span>
-                    <h5 class="m-text-2 mb-3 text-uppercase">CONTACT ADDRESS</h5>
-                    <div class="media ">
-                        <div class="media-body">
-                            <p class="m-0 ">Phone: +91 98109 43535 / <br>+91 98189 55777
-                                <br>
-                                E-mail: surendrank@hotmail.com</p>
-                        </div>
-                    </div>
-                </div> <!-- col-->
-            </div> <!-- col-->
-        </div><!-- row-->
-    </div>
-</div>
+   
+
 <section class="m-bg-1 intro-area type-1 position-relative">
     <div class="intro-overlay position-absolute set-bg" data-bg="assets/images/intro-bg.jpg" ></div>
     <div class="overlay"></div>
     <div class="container">
+        
         <div class="row">
             <div class="col-md-4">
-                <div class="department-tab-pill m-pt-140  m-pb-140 position-relative ">
+                <div class="department-tab-pill m-pt-60  m-pb-60 position-relative ">
                     <h2 class="text-white pb-md-5">
                         About 
                         <br>
@@ -112,7 +66,7 @@
                         <a class="nav-link"  data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                             <i class="icofont-bullseye"></i>
                             <span>
-                                Speciality
+                                Expertise
                             </span>
                         </a>
                         <a class="nav-link"  data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
@@ -137,88 +91,244 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="tab-content m-pt-140 m-pb-140 " >
+                <div class="tab-content m-pt-60 m-pb-60 " >
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" >
-                        <h4 class="m-text-2 ">Dr. Surendra Nath Khanna </h4>
-                        <h6 class="text-light-dark ff-roboto pb-40 mb-0">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
-
-                        <p class="m-mb-30">
-                            Dr. Surendra Nath Khanna is the Associate Director, Department of Cardiovascular Surgery, Fortis
-                            Escorts Heart Institute, New Delhi, India. He specialises in all types of adult cardiac surgical work.
-                            He is one of the leading and most experienced cardiac surgeon with expertise in Beating Heart
-                            Surgeries, Cardiac Valvular Surgery--Mitral Valve, Aortic Valve, Tricuspid valve, Double Valve
-                            Replacements and Redo-valve surgeries. He also has special interest in Valve Repairs, Minimally
-                            Invasive Cardiac Surgery, Aortic Aneurysm Surgery, and Heart-Failure Surgery. His has relentless
-                            quest to bring the best in cardiac surgery to India and within the reach of common man.
+                        <h4 class="m-text-2 ">Dr.(Prof.) Surendra Nath Khanna </h4>
+                        <h6 class="text-light-dark ff-roboto pb-40 mb-0"> Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        <p class="m-mb-30">He has been practicing cardiac surgery since the last 30years. He has carried out more than 17,000 cardiac surgeries. He has been working as Consultant cardian surgen at various prestigious hospitals which includes San Raffaele Hospital, Milan, Italy; where he was trained under Prof. Ottavio Alfieri, internationally renowned for his pioneering techniques in valve repairs and valve surgery in servere left ventricular dysfunctionality. <br>
+                            He specialises in all types of adult cardiac surgical work. He is one of the leading and most experienced cardiac surgeon with expertise in Beating Heart Surgeries, Cardiac Valvular Surgery--Mitral Valve, Aortic Valve, Tricuspid valve, Double Valve Replacements and Redo-valve surgeries. He also has special interest in Valve Repairs, Minimally Invasive Cardiac Surgery, Aortic Aneurysm Surgery, and Heart-Failure Surgery. His has relentless quest to bring the best in cardiac surgery to India and within the reach of common man.
                         </p>
                         <p>
-                            He is a Graduate of King George&#39;s Medical College, Lucknow. After completing his MS (Gen.
-                            Surgery) he was trained in cardiac surgery at King Edward Memorial Hospital, Mumbai; Christian
-                            Medical College, Vellore. Thereafter he went abroad and was trained under Prof. Ottavio Alfieri,
-                            internationally known for his pioneering work in heart valve techniques.
+                            He is a Graduate of King George's Medical College, Lucknow. After completing his MS (Gen. Surgery) he was trained in cardiac surgery at King Edward Memorial Hospital, Mumbai; Christian Medical College, Vellore. Thereafter he went abroad and was trained under Prof. Ottavio Alfieri, internationally known for his pioneering work in heart valve techniques.
                         </p>
-                        <p>Dr. Surendra Nath Khanna has been practicing cardiac surgery since the last 26 years. He has carried out more than 17,000 cardiac surgeries. He has been working as Consultant cardiac surgeon at various prestigious hospitals which includes San Raffaele Hospital, Milan, Italy; where he was trained under Prof. Ottavio Alfieri, internationally reknowned for his pioneering techniques in valve repairs and valve surgery in severe left ventricular dysfunction. He has worked with Luminaries like Prof Stanley John. His work experience encompasses operating at prestigious centres which include- King Edward Memorial Hospital, Mumbai; Christian Medical College, Vellore; Max Heart and research Institute, New Delhi and Fortis Escorts Heart Institute New Delhi.</p>
-                        <p>He is passionately involved in the Community Outreach Services and creating mass awareness toward cardiac diseases for last 26 years. He has been regularly reaching out to the masses of India, a fact which has been widely acknowledged by media and society at large. He has rendered free cardiac care in far and remote areas on North India.</p>
-                        <p>His experience in cardiac surgery amalgamated with quest to train junior cardiac surgeon in India. Dr. Khanna has trained many cardiac surgeons from various parts of India and is actively involved in training the undergraduate and post-graduate students. He also has a keen interest in academic and research work, which includes publications in various reputed international journals.He has been invited as speaker on many international forums.</p>
-
+                        <a href="{{ route('about-me') }}" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
+                            View more
+                        </a>
                     </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" >
-                        <h4 class="m-text-2 ">Dr. Surendra Nath Khanna </h4>
-                        <h6 class="text-light-dark ff-roboto pb-40 mb-0">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        <h4 class="m-text-2 ">Dr.(Prof.) Surendra Nath Khanna </h4>
+                        <h6 class="text-light-dark ff-roboto pb-40 mb-0">Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Coronary Artery Bypass Graft Surgery.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Valve replacement and repair.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Minimal Invasive Cardiac Surgery.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Off Pump Coronary Artery Bypass Surgery.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Complex Valve Replacement and Repair.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">CABG in patients with poor ventricular function. Beating Heart CABG.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Valvular Heart surgery (Trained under Prof. Dr. Ottavio Alfieri,pioneer in valve surgery).</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Aortic Surgery.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Heart Failure surgery.</p>
+                            </div>
+                        </div>
 
-                        <ul>
-                            <li>Coronary Artery Bypass Graft Surgery.</li>	
-                            <li>Valve replacement and repair.</li>	
-                            <li>Minimal Invasive Cardiac Surgery. </li>	
-                            <li>Off Pump Coronary Artery Bypass Surgery.</li>	
-                            <li>Complex Valve Replacement and Repair.</li>	
-                            <li>CABG in patients with poor ventricular function. Beating Heart CABG.</li>	
-                            <li>Valvular Heart surgery (Trained under Prof. Dr. Ottavio Alfieri,pioneer in valve surgery).</li>	
-                            <li>Aortic Surgery.</li>	
-                            <li>Heart Failure surgery.</li>	
-                        </ul>
-
+                        <a href="{{ route('about-me') }}" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
+                            View more
+                        </a>
                     </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" >
-                        <h4 class="m-text-2 ">Dr. Surendra Nath Khanna </h4>
-                        <h6 class="text-light-dark ff-roboto pb-40 mb-0">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        <h4 class="m-text-2 ">Dr.(Prof.) Surendra Nath Khanna </h4>
+                        <h6 class="text-light-dark ff-roboto pb-40 mb-0"> Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow Cardiac Surgeon, SAN RAFFAELE Hospital, MILAN, ITALY(1998).</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium"> Director, Cardiac Surgery -Fortis Escorts Heart Institute, New Delhi. (2015 to till date)</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Head of the department – Cardiovascular Thoracic surgery Fortis Hospital NOIDA.(2014-2015)</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Principal Consultant- Cardiac Surgery -Escorts Heart Institute, New Delhi.(2010-2014).</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Senior Consultant Cardiac Surgeon- Max Heart Institute, New Delhi (2006 -2010).</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Senior Consultant Cardiac Surgeon, Escorts Heart Institute & Research Centre, New Delhi (1995-2006).</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Head of the department of Cardio Vascular Thoracic Surgeon, Escorts Heart Centre, Kanpur (2004- 2005).</p>
+                            </div>
+                        </div>
 
-                        <ul>
-                            <li>Head of the department – Cardiovascular Thoracic surgery Fortis Hospital NOIDA.</li>	
-                            <li>Associate Director, Cardiac Surgery -Fortis Escorts Heart Institute, New Delhi.</li>	
-                            <li>Principal Consultant- Cardiac Surgery -Escorts Heart Institute, New Delhi.(2010-2014).</li>	
-                            <li>Senior Consultant Cardiac Surgeon- Max Heart Institute, New Delhi (2006 -2010).</li>	
-                            <li>Senior Consultant Cardiac Surgeon, Escorts Heart Institute & Research Centre, New Delhi (1995-2006).</li>	
-                            <li>Head of the department of Cardio Vascular Thoracic Surgeon, Escorts Heart Centre, Kanpur (2004- 2005).</li>	
-                            <li>Fellow Cardiac Surgeon, SAN RAFFAELE Hospital, MILAN, ITALY(1998).</li>	
-                        </ul>
-
+                        <a href="{{ route('about-me') }}" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
+                            View more
+                        </a>
                     </div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" >
-                        <h4 class="m-text-2 ">Dr. Surendra Nath Khanna </h4>
-                        <h6 class="text-light-dark ff-roboto pb-40 mb-0">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
-
-                        <ul>
-                            <li>Award of Excellence in Cardiology from World Congress on clinical,Preventive,Geriatric Cardiology and Imaging (WCCPGCI 2010)-, October 24,2010.</li>	
-                            <li>Honorary Professor Faculty of Medical Sciences,Indira Gandhi Technological and Medical Scinces University, Arunachal Pradesh.</li>	
-                            <li>Distinguished Service Award- Heart Care Foundation of India BSNL Dl ka Darbar – September 26,2010.</li>	
-                            <li>National Excellence Award – Heart Care Foundation of India MTNL Perfect Health Mela – Oct 23rd 2011.</li>	
-                            <li>Senior Proficiency Certificate- Sept.1977- Indian Council for International Amity.</li>	
-                            <li>Senior Proficiency Certificate- Sept.1979 - Indian Council for International Amity.</li>	
-                            <li>Award for Incomparable.</li>	
-                        </ul>
+                        <h4 class="m-text-2 ">Dr.(Prof.) Surendra Nath Khanna </h4>
+                        <h6 class="text-light-dark ff-roboto pb-40 mb-0"> Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Award of Excellence in Cardiology from World Congress on clinical,Preventive,Geriatric Cardiology and Imaging (WCCPGCI 2010)-, October 24,2010.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Honorary Professor Faculty of Medical Sciences,Indira Gandhi Technological and Medical Scinces University, Arunachal Pradesh.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Distinguished Service Award- Heart Care Foundation of India BSNL Dl ka Darbar – September 26,2010.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">National Excellence Award – Heart Care Foundation of India MTNL Perfect Health Mela – Oct 23rd 2011.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Senior Proficiency Certificatem- Indian Council for International Amity.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Senior Proficiency Certificate- Indian Council for International Amity.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Award for Incomparable for contribution to humanity.</p>
+                            </div>
+                        </div>
+                        <a href="{{ route('about-me') }}" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
+                            View more
+                        </a>
                     </div>
                     <div class="tab-pane fade" id="eye-care" role="tabpanel" >
-                        <h4 class="m-text-2 ">Dr. Surendra Nath Khanna </h4>
-                        <h6 class="text-light-dark ff-roboto pb-40 mb-0">Associate Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        <h4 class="m-text-2 ">Dr.(Prof.) Surendra Nath Khanna </h4>
+                        <h6 class="text-light-dark ff-roboto pb-40 mb-0"> Director, Department of Cardiovascular Surgery, Fortis Escorts Heart Institute, New Delhi, India</h6>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Bachelor of Medicine & Bachelor of Surgery (MBBS), Lucknow University,India,1986.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Master of Surgery (M.S), General Surgery, King’s Medical College,Lucknow,India,1990.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Master of Chirugerie (M.Ch),Cardiovascular & Thoracic Surgery,Mumbai University,India,1995.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow Cardiac Surgeon,SAN RAFFAELE HOSPITAL,MILAN,ITALY (1998)</p>
+                            </div>
+                        </div>  
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow, International College of Surgeons (USA) FICS(USA)  2000.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow, Indian Association of Cardiovascular & Thoracic Surgeons FIACS  2001.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow, Academy of Medical Specialities FAMS 2004.</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Fellow, Indian College of Cardiology FICC  2012.</p>
+                            </div>
+                        </div>
 
-                        <ul>
-                            <li>Bachelor of Medicine & Bachelor of Surgery (MBBS), Lucknow University,India,1986.</li>	
-                            <li>Master of Surgery (M.S), General Surgery, King’s Medical College,Lucknow,India,1990.</li>	
-                            <li>Master of Chirugerie (M.Ch),Cardiovascular & Thoracic Surgery,Mumbai University,India,1995.</li>	
-                            <li>FICS(USA),FIACS,FAMS,FICC.</li>	
-                            <li>Fellow Cardiac Surgeon,SAN RAFFAELE HOSPITAL,MILAN,ITALY.</li>	
-                        </ul>
+                        <a href="{{ route('about-me') }}" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
+                            View more
+                        </a>
                     </div>
                 </div>
             </div>
@@ -226,4 +336,115 @@
     </div>
 </section>
 <!-- End Section -->
+<section class="m-pt-40 m-bg-1 m-pb-40">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="m-text-2 m-mb-30">Certifications</h4>
+            </div>
+        </div>
+        <div class="row grid ">
+            
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/maharashtra-medical-council-bombay-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover="  Maharashtra Medical Council License ">   Maharashtra Medical Council License   </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/maharashtra-medical-council-bombay-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/ima-academy-of-medical-specialities-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover="  Master of Chirurgiae (M.Ch.)  ">   Master of Chirurgiae (M.Ch.)  </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/ima-academy-of-medical-specialities-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/university-of-lucknow-bachelor-of-medicine-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover="   Bachelor Of Medicine & Bachelor Of Surgery  ">   Bachelor Of Medicine & Bachelor Of Surgery   </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/university-of-lucknow-bachelor-of-medicine-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/university-of-lucknow-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover="  Master of Surgery (M.S.) ">   Master of Surgery (M.S.)   </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/university-of-lucknow-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/the-society-of-thoracic-surgeons-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover=" The Society Of Thoracic Surgeons "> The Society Of Thoracic Surgeons  </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/the-society-of-thoracic-surgeons-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/Lucknow-vishwavidyalay-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover=" Master of Surgery (M.S.)    ">  Master of Surgery (M.S.)  </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/Lucknow-vishwavidyalay-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/indira-gandhi-technological-and-medical-univesity-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover=" Indira Gandhi Technological and Medical Sciences Univesity ">   Indira Gandhi Technological and Medical Sciences Univesity </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/indira-gandhi-technological-and-medical-univesity-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            <div class="col-md-6 col-sm-6 col-lg-3 m-mb-30 grid-item diabetes">
+                <div class="position-relative">
+                    <div class="gallery-overlay position-absolute"></div>
+                    <div class="gallery-hoveralble-content d-flex align-items-center flex-column justify-content-end position-absolute">
+                        <a  class="venobox" data-gall="gall1" data-title="" href="{{ url('/') }}/assets/images/fiacs-fellow-of-the-associatioon-220x220.jpg">
+                            <i class="icofont-search-2"></i>
+                        </a>
+                        <h6 class="" data-hover="  Fellow Indian Association of Cardiovascular-thoracic Surgeons (FIACS) ">   Fellow Indian Association of Cardiovascular-thoracic Surgeons (FIACS)  </h6>
+                    </div>
+                    <img src="{{ url('/') }}/assets/images/fiacs-fellow-of-the-associatioon-220x220.jpg" alt="">
+                </div><!-- content -->
+            </div> <!-- col -->
+            
+        </div>
+        
+    </div>
+</section>
 @endsection

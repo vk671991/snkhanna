@@ -1,28 +1,9 @@
 @extends('template')
 @section('content')
-<!-- Start Section -->
-<section class=" position-relative set-bg breadcrumb-container" data-bg="{{ url('/') }}/assets/images/breadcrumb-img1.jpg">
-    <div class="overlay op-P9"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-inner align-items-start flex-column justify-content-center   d-flex ">
-                    <h3 class="semi-bold text-uppercase text-white">Articles</h3>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb bg-transparent mb-0 pl-0 p-0">
-                            <li class="breadcrumb-item "><a href="{{ route('home') }}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('articles') }}">Articles</a></li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Start Section -->
+
 
 <!-- Start Section -->
-<section class="m-pt-140 m-bg-1">
+<section class="m-pt-40 m-bg-1">
     <div class="container">
         <div class="row">
             
